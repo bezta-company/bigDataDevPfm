@@ -1,10 +1,16 @@
 package bzt.homework.game
 
-class Hero(name :String, skill :String, attack :Int, level :Int, var winCount :Int=0) {
+class Hero(name :String, skill :String, attack :Int, level :Int, var winCount :Int=0) extends GameRole {
   def getWinCount() = this.winCount
   def getName() =this.name
   def getSkill() = this.skill
 
+  override def compare(other: GameRole): Boolean = {
+    if(getAttack() < other.asInstanceOf[Hero].getAttack()){
+      return true
+    }
+    return false
+  }
 
   def incWinCount(): Unit = {
     this.winCount = this.winCount + 1
@@ -44,6 +50,15 @@ class Hero(name :String, skill :String, attack :Int, level :Int, var winCount :I
 //    }
 //    return true
   }
+//
+//  override def compare(other: Role): Boolean = {
+//    val o = other.asInstanceOf[Hero]
+//
+//    if(getAttack() < o.getAttack()){
+//       return true
+//    }
+//     return false
+//  }
 }
 
 

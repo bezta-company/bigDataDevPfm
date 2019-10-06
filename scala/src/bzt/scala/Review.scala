@@ -75,6 +75,7 @@ object Review {
 
   //类定义
   class Man(name: String) {
+
     def sayHello(): Unit = {
       println("你好,我叫 %s ".format(name))
     }
@@ -89,6 +90,13 @@ object Review {
 
   class BlackMan(name: String) extends Man(name) {
 
+    override def haveLunch(): Unit = {
+      println("我是%s, 我吃饭不用筷子".format(name))
+    }
+    //
+    //    def haveLunch(food :String) = {
+    //      println("我是%s, 我今天的午饭是%s".format(name, food))
+    //    }
   }
 
   //继承的使用场景
