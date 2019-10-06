@@ -1,0 +1,1 @@
+global_parameter = ["hello everyone","welcome to bzt learning center","today is friday"]
