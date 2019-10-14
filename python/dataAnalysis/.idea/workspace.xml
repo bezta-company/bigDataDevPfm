@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="856397b0-f539-49d8-bbbc-e8813882e7c6" name="Default Changelist" comment="" />
+    <list default="true" id="856397b0-f539-49d8-bbbc-e8813882e7c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kmeans_Demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="211">
+              <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
               <folding>
                 <element signature="e#203#221#0" expanded="true" />
               </folding>
@@ -58,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="470" />
     <option name="y" value="180" />
     <option name="width" value="1346" />
@@ -71,12 +73,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dataAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py_analysis">
+  <component name="RunManager" selected="Python.Kmeans_Demo">
     <configuration name="Kmean_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +117,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kmean_demo.py" />
       <option name="PARAMETERS" value="IRIS 100 3 1,3,5 1 10" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Kmeans_Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PycharmProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kmeans_Demo.py" />
+      <option name="PARAMETERS" value="IRIS 100 3 1,2,3 0 0.000001" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -133,27 +166,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="myFirstPyScript" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myFirstPyScript.py" />
-      <option name="PARAMETERS" value="paramter_1 parameter2" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="py_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +178,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\PycharmProj\Py_DataAnalysis.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="C:/PycharmProj/Py_DataAnalysis.py" />
+      <option name="PARAMETERS" value="IRIS 100 3 1,2,3 0 0.000001" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -197,19 +209,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.myFirstPyScript" />
       <item itemvalue="Python.testPack (1)" />
       <item itemvalue="Python.Kmean_demo" />
       <item itemvalue="Python.Kmeans_demo" />
       <item itemvalue="Python.py_analysis" />
+      <item itemvalue="Python.Kmeans_Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Kmeans_Demo" />
         <item itemvalue="Python.py_analysis" />
         <item itemvalue="Python.Kmeans_demo" />
         <item itemvalue="Python.testPack (1)" />
         <item itemvalue="Python.Kmean_demo" />
-        <item itemvalue="Python.myFirstPyScript" />
       </list>
     </recent_temporary>
   </component>
@@ -227,15 +239,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49655172" visible="true" weight="0.2061012" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49655172" weight="0.10565476" />
       <window_info id="Structure" order="1" sideWeight="0.50344825" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50344825" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="-12" y="313" width="1344" height="271" id="Run" order="2" weight="0.32242227" />
-      <window_info anchor="bottom" x="11" y="203" width="1344" height="321" id="Debug" order="3" weight="0.18003273" />
+      <window_info anchor="bottom" x="-12" y="313" width="1344" height="271" id="Run" order="2" weight="0.2147541" />
+      <window_info active="true" anchor="bottom" x="11" y="203" width="1344" height="321" id="Debug" order="3" visible="true" weight="0.46393442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,9 +262,25 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Kmeans_Demo.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Kmeans_Demo.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="df.groupby(by = 'Region')['PerPrice']" />
+        <watch expression="sys.argv" />
+        <watch expression="sys.argv[5]" />
+        <watch expression="int(sys.argv[5])" />
       </configuration>
     </watches-manager>
   </component>
@@ -370,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Kmeans_Demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="211">
+          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
           <folding>
             <element signature="e#203#221#0" expanded="true" />
           </folding>
